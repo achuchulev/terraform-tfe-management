@@ -11,6 +11,6 @@ provider "tfe" {
 }
 
 resource "tfe_workspace" "test" {
-  name         = "my-new-workspace"
+  name         = "my-new-tfc-workspace"
   organization = var.my-org-name
 }
