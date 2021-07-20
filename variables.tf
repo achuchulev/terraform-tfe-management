@@ -1,2 +1,5 @@
-hostname = "app.terraform.io"
-my-org-name = "atanas-free"
+variable "hostname" {
+  default = "app.terraform.io"
+}
+
+variable "my-org-name" {}
